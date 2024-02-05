@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>{{viewData.title}}</title>
+  </head>
+  <body>
+    <h1>{{viewData.subTitle}}</h1>
+    {{#each viewData.products}}
+        <p>{{id}} : {{name}} : {{desc}} : {{price}}</p>
+    {{/each}}
+  </body>
+</html>
